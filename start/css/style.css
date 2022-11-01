@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Comfortaa', cursive;*/
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../images/csm_FA22_RayAir_Header_2_738a7a250b 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 55px;
+    gap: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.logo {
+  filter: invert(13%) sepia(7%) saturate(962%) hue-rotate(78deg) brightness(92%) contrast(87%);
+  transition: filter .2s ease;
+}
+
+.logo:hover {
+    filter: invert(41%) sepia(34%) saturate(6839%) hue-rotate(161deg) brightness(93%) contrast(101%);
+}
+
+.header__btn {
+    text-transform: uppercase;
+    padding: 12px 71px;
+    border: none;
+    background-color: #262C27;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__phone {
+    line-height: 22px;
+    color: #262C27;
+}
+
+.header__content {
+    min-height: calc(100vh - 161px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__content-box {
+   max-width: 550px;
+    text-align: center;
+    margin-right: 30px;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.header__decor-text {
+    position: absolute;
+}
+
+.header__title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 71px;
+}
+
+.header__text {
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
